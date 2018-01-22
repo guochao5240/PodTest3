@@ -12,7 +12,7 @@ s.requires_arc = true
 s.ios.deployment_target = '8.0'
 
 #s.source_files =  "OOReader/Headers/*.{h,m}","OOReader/*","OOReader/**/*.{h,m}",".*{h,m}","*"
-s.vendored_library = 'OOReader.framework'
+#s.vendored_library = 'OOReader.framework'
 #s.resources = ["KingReaderSDK/*.bundle"]
 s.frameworks = 'SystemConfiguration', 'MobileCoreServices','CFNetwork','CoreTelephony'
 #s.libraries = 'xml2', 'z','resolv','sqlite3'
