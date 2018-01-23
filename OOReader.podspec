@@ -15,6 +15,6 @@ s.source_files =  "OOReader.framework/Headers/*.{h}","OOReader.framework/*"
 #s.vendored_library = 'OOReader.framework'
 #s.resources = ["KingReaderSDK/*.bundle"]
 s.frameworks = 'SystemConfiguration','CoreTelephony'
-#s.libraries = 'xml2', 'z','resolv','sqlite3'
+#s.libraries = 'xml2', 'z'
 end
 
