@@ -11,7 +11,7 @@ s.requires_arc = true
 
 s.ios.deployment_target = '8.0'
 
-s.source_files =  "OOReader/*.{h,m}", "Header/**/*.{h,m}", "*.{h,m}"
+s.source_files =  "OOReader.framework/Headers/*.{h}","OOReader.framework/*"
 #s.vendored_library = 'OOReader.framework'
 #s.resources = ["KingReaderSDK/*.bundle"]
 s.frameworks = 'SystemConfiguration','CoreTelephony'
