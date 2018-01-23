@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name     = 'OOReader'
 s.version  = '0.0.1'
-s.license  = 'MIT'
+s.license  = { :type => 'MIT' }
 s.summary  = 'OOReader for iOS7+'
 s.homepage = 'https://github.com/guochao5240/'
 s.social_media_url = 'https://github.com/azaxas128/MiPushSDK'
